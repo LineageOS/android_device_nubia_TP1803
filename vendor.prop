@@ -56,7 +56,7 @@ vendor.qcom.bluetooth.soc=cherokee
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
-ro.soc.model=SDM8150
+ro.soc.model=SM8150
 
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
