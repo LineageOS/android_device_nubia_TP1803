@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b24bcc12_e0396fc9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2021-12-09T23:27:07Z",
+      "side": 1,
+      "message": "Needs https://android.googlesource.com/device/google/coral-sepolicy/+/ad1bd0e9edd0befbb950832daaaa81eb90975363",
+      "revId": "4a61a8a9dfc01627e2c0534083047ba968e82b48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
