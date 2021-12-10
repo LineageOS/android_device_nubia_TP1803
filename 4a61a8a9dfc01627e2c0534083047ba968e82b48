@@ -16,6 +16,24 @@
       "message": "Needs https://android.googlesource.com/device/google/coral-sepolicy/+/ad1bd0e9edd0befbb950832daaaa81eb90975363",
       "revId": "4a61a8a9dfc01627e2c0534083047ba968e82b48",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e454cc2d_257d6085",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-12-10T01:03:35Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_nubia_TP1803/+/320153/1 done",
+      "parentUuid": "b24bcc12_e0396fc9",
+      "revId": "4a61a8a9dfc01627e2c0534083047ba968e82b48",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
