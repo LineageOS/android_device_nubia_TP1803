@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dadb3995_63988e1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-12-11T00:25:42Z",
+      "side": 1,
+      "message": "The subject is kinda ugly. Why not simply \"Import power profile from coral\"?",
+      "revId": "5c853e9670d10259b74e175379875915d2e470dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
