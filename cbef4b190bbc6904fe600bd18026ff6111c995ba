@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b650c318_eb48f110",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-01-12T22:40:45Z",
+      "side": 1,
+      "message": "Note: This builds the latest available versions of the interfaces even though we don\u0027t need them without our blobs as of now, but they don\u0027t harm.",
+      "revId": "cbef4b190bbc6904fe600bd18026ff6111c995ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
