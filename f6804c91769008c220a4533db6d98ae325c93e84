@@ -16,6 +16,24 @@
       "message": "Would it be possible to do this in extract utilities itself?",
       "revId": "f6804c91769008c220a4533db6d98ae325c93e84",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b12dc63d_cab960b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-02-03T17:40:31Z",
+      "side": 1,
+      "message": "That would cause some trouble for devices which have prebuilts that can be built from source. For example here https://review.lineageos.org/c/LineageOS/android_device_samsung_exynos9820-common/+/320974 it was required to rename libtinyalsa to libtinyalsa.exynos9820 because after this change it\u0027s not copy vs module which can be worked around with BUILD_BROKEN_DUP_RULES, it\u0027s 2 modules with the same name which can\u0027t be worked around easily. Some devices might have a lot of such blobs and would rather set BUILD_BROKEN_DUP_RULES and BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES.\n\nI\u0027m not saying that it can\u0027t be done for all devices in extract utilities but just pointing out that it is not as trivial for many other devices (just force everyone to fix the source built blobs, LOL ¯\\_(ツ)_/¯).",
+      "parentUuid": "73890b29_e36e8c1c",
+      "revId": "f6804c91769008c220a4533db6d98ae325c93e84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
