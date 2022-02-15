@@ -16,6 +16,23 @@
       "message": "Derp, this one won\u0027t be squashed",
       "revId": "17f89cd19d2b2dae36e401f5abc0d150ce94ed55",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e8569a4_8df75810",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-02-15T00:59:21Z",
+      "side": 1,
+      "message": "Fingerprint gestures work fine in enforcing now.",
+      "revId": "17f89cd19d2b2dae36e401f5abc0d150ce94ed55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
