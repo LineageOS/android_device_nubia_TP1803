@@ -80,7 +80,11 @@ BOARD_KERNEL_CMDLINE := \
 TARGET_USES_ION := true
 
 # Partitions
+<<<<<<< HEAD   (4e7fb0 TP1803: Inherit non_ab_device.mk)
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+=======
+BOARD_USES_FULL_RECOVERY_IMAGE := true
+>>>>>>> CHANGE (a838ae TP1803: Ship full recovery image)
 BOARD_USES_METADATA_PARTITION := true
 
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
