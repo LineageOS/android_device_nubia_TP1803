@@ -467,7 +467,6 @@ vendor/lib64/libperipheral_client.so
 
 # QMI
 system_ext/etc/permissions/qti_permissions.xml
-vendor/bin/irsc_util
 vendor/bin/ks
 vendor/bin/mdm_helper
 vendor/bin/pd-mapper
