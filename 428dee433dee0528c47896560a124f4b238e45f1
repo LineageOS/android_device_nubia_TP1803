@@ -16,6 +16,24 @@
       "message": "To make it more proper, you should pick https://review.lineageos.org/c/LineageOS/android_device_samsung_gts4lv-common/+/338937/ first.",
       "revId": "428dee433dee0528c47896560a124f4b238e45f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fff421e6_0653b76c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-10-10T02:24:53Z",
+      "side": 1,
+      "message": "Yeah, I talked to arian about this, and pointed out (rightly) that no remanent is left - we can just move directly to the AIDL, so there\u0027s little point even from a history perspective?",
+      "parentUuid": "c5458b6e_23174418",
+      "revId": "428dee433dee0528c47896560a124f4b238e45f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
