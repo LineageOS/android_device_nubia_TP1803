@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b7c5ab6_3ab19b08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-11-19T07:40:55Z",
+      "side": 1,
+      "message": "That\u0027s because you\u0027re routing A2DP to primary audio HAL\nhttps://github.com/LineageOS/android_device_nubia_TP1803/blob/lineage-20/configs/audio/audio_policy_configuration.xml#L262-L276\nYou should try this https://github.com/LineageOS/android_device_xiaomi_sm8250-common/commit/ab5834dda5ac926a5fbc0f6d70cf691a0ac9e31a but it may not work on \u003csm8250",
+      "revId": "60514956eace84284de0384ed30526c7e8485f23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
