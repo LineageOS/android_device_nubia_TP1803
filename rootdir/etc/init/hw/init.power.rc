@@ -110,6 +110,12 @@ on property:vendor.setup.power=1
 
     chown system system /sys/class/devfreq/soc:qcom,l3-cdsp/userspace/set_freq
 
+    # IRQ Tuning
+    # IRQ 8: msm_drm
+    # IRQ 515: kgsl-3d0
+    write /proc/irq/8/smp_affinity_list 2
+    write /proc/irq/515/smp_affinity_list 1
+
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
