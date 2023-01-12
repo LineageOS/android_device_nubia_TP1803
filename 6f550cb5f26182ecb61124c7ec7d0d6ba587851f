@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13cbece4_ab4d1757",
+        "filename": "configs/audio/audio_policy_configuration.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-01-12T14:36:40Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/I269220cf29451ea79362fc004fa073713f72fdb2",
+      "range": {
+        "startLine": 375,
+        "startChar": 38,
+        "endLine": 375,
+        "endChar": 72
+      },
+      "revId": "6f550cb5f26182ecb61124c7ec7d0d6ba587851f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ff53f56_06385123",
+        "filename": "device.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-01-12T14:36:40Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/I269220cf29451ea79362fc004fa073713f72fdb2",
+      "range": {
+        "startLine": 68,
+        "startChar": 46,
+        "endLine": 68,
+        "endChar": 80
+      },
+      "revId": "6f550cb5f26182ecb61124c7ec7d0d6ba587851f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6dacf08d_fe45b843",
+        "filename": "device.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-01-12T14:36:40Z",
+      "side": 1,
+      "message": "This is unused",
+      "range": {
+        "startLine": 70,
+        "startChar": 46,
+        "endLine": 70,
+        "endChar": 77
+      },
+      "revId": "6f550cb5f26182ecb61124c7ec7d0d6ba587851f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
