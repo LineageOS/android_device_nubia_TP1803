@@ -87,6 +87,24 @@
       "parentUuid": "cd722ca4_1e2c75be",
       "revId": "9cbf99d722d80aa4c680d437820c42e7360565fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c12a38cb_7e539737",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-01-17T21:19:53Z",
+      "side": 1,
+      "message": "That said, if fault was of anyone here it would be on me.",
+      "parentUuid": "69c1ec95_061f5b0d",
+      "revId": "9cbf99d722d80aa4c680d437820c42e7360565fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
