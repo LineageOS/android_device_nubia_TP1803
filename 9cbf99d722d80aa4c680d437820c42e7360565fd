@@ -69,6 +69,24 @@
       "message": "Which has an earlier author date? That\u0027s how we normally do attribution here. Did I start this off wrong by missing a relevant commit in pick-a-pixel?",
       "revId": "9cbf99d722d80aa4c680d437820c42e7360565fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69c1ec95_061f5b0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-01-17T21:18:48Z",
+      "side": 1,
+      "message": "Not at all, I am not discussing that. I was even the one that created this change with you as author, based on your original discovery on tegra devices.",
+      "parentUuid": "cd722ca4_1e2c75be",
+      "revId": "9cbf99d722d80aa4c680d437820c42e7360565fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
