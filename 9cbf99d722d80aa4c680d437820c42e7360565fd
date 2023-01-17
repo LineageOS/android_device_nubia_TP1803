@@ -52,6 +52,23 @@
       "parentUuid": "2e31fe1f_f428e670",
       "revId": "9cbf99d722d80aa4c680d437820c42e7360565fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd722ca4_1e2c75be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-01-17T21:14:30Z",
+      "side": 1,
+      "message": "Which has an earlier author date? That\u0027s how we normally do attribution here. Did I start this off wrong by missing a relevant commit in pick-a-pixel?",
+      "revId": "9cbf99d722d80aa4c680d437820c42e7360565fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
