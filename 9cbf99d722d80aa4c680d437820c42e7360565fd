@@ -105,6 +105,24 @@
       "parentUuid": "69c1ec95_061f5b0d",
       "revId": "9cbf99d722d80aa4c680d437820c42e7360565fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ee04b07_68598bff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-01-18T09:28:48Z",
+      "side": 1,
+      "message": "FWIW I explained what to do to Aaron on #tegra (https://discord.com/channels/628008280605589549/1003812455270592622/1025555557937061958), and I assumed that from Pixel audio policy configuration\nIf anything, authorship should\u0027ve gone to me, but I really couldn\u0027t care less about this stuff, so dw\nOn my trees, I went with the Pixel commit since, again, I decided what to do from that",
+      "parentUuid": "c12a38cb_7e539737",
+      "revId": "9cbf99d722d80aa4c680d437820c42e7360565fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
