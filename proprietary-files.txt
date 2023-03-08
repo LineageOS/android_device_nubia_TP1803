@@ -91,6 +91,11 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/etc/camera/camxoverridesettings.txt|867b717c63b0e588b54ead90381d9660c4ff22cc
 vendor/firmware/CAMERA_ICP.elf|0d67a7e94d70054077386bf9714af2e969706905
 -vendor/lib64/camera/com.qti.sensor.nx629j_imx586.so:vendor/lib64/camera/com.qti.sensor.tp1803_imx586.so|5fc3bcb0f9bea97eea5ca9be02d0dd542fb506dc
+-vendor/lib64/camera/com.qti.sensor.tp1803_ov8856.so|acdb965a3d607f98190351125bccbf5318a101cc
+vendor/lib64/camera/com.qti.sensormodule.tp1803_imx586.bin|92b76a47f2d9056ba4e9f91524bb15b000a2c553
+vendor/lib64/camera/com.qti.sensormodule.tp1803_ov8856.bin|2d3b226fcfa113035434eaae6d9a3aa33c0b7d59
+vendor/lib64/camera/com.qti.tuned.default.bin|8e55da21e459fdfc9bb6e5b6725ab83c230fed2a
+vendor/lib64/camera/com.qti.tuned.tp1803_imx586.bin|25c8e45e4a1e67c5d869bfd9b5e03bdeffdce4ff
 -vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|d8de6abf30be0ea7c551fe2c4109c1ee0adfe929
 -vendor/lib64/camera/components/com.qti.eisv2.so|895242b879facb428cd7f59cbe3de2b62fdcdeff
 -vendor/lib64/camera/components/com.qti.eisv3.so|0893b3309d7e6fcb0315aca82f9913afd92bfc2e
@@ -126,18 +131,12 @@ vendor/firmware/CAMERA_ICP.elf|0d67a7e94d70054077386bf9714af2e969706905
 -vendor/lib64/camera/components/com.qtistatic.stats.awb.so|08864a734630aee1ebdf3988382cd911cacb6890
 -vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|021ed1bd7c0ae4b88447e937919574cb92ad9b80
 -vendor/lib64/camera/components/libdepthmapwrapper.so|2e73ff5d5816b7381588aee0d16165ed135ae6fd
--vendor/lib64/camera/com.qti.sensor.tp1803_ov8856.so|acdb965a3d607f98190351125bccbf5318a101cc
-vendor/lib64/camera/com.qti.sensormodule.tp1803_imx586.bin|92b76a47f2d9056ba4e9f91524bb15b000a2c553
-vendor/lib64/camera/com.qti.sensormodule.tp1803_ov8856.bin|2d3b226fcfa113035434eaae6d9a3aa33c0b7d59
-vendor/lib64/camera/com.qti.tuned.default.bin|8e55da21e459fdfc9bb6e5b6725ab83c230fed2a
-vendor/lib64/camera/com.qti.tuned.tp1803_imx586.bin|25c8e45e4a1e67c5d869bfd9b5e03bdeffdce4ff
 vendor/lib64/camera/fdconfigpreview.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 vendor/lib64/camera/fdconfigpreviewlite.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 vendor/lib64/camera/fdconfigvideo.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 vendor/lib64/camera/fdconfigvideolite.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 -vendor/lib64/hw/camera.qcom.so|88d557c1ae66ecbc224c5bd2a9aee0544a177010|8a099105c042f9261bd0f525f89a9b6dbdd24252
 -vendor/lib64/hw/com.qti.chi.override.so|2918319b14552887dddee75765694ea804aad230
--vendor/lib64/libsnsapi.so:vendor/lib64/libsnsv28.so|89da0e4714611fad86c51c6053c2e73d9ce4f3e1
 -vendor/lib64/libcamera_nn_stub.so|ba354b7e968ce2af3ac5597292d1b315d89b4113
 -vendor/lib64/libcamxfdalgov7.so|aa3cf08b7c8fa862417d332c2b8012218188b962
 -vendor/lib64/libcamxfdalgov8.so|c5b7401df0879170b30f81df70f51c943f983213
@@ -146,6 +145,7 @@ vendor/lib64/camera/fdconfigvideolite.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b71
 -vendor/lib64/libcamxswprocessalgo.so|6457563020d15ab00a563c1fb2453482bc396b3a
 -vendor/lib64/libcamxtintlessalgo.so|cbaad8d52f77f0af0e8122296336fcbef3014856
 -vendor/lib64/libcom.qti.chinodeutils.so|1d694e69edee256715d96b4d0aa3d883ee4cf7b4
+-vendor/lib64/libsnsapi.so:vendor/lib64/libsnsv28.so|89da0e4714611fad86c51c6053c2e73d9ce4f3e1
 -vendor/lib64/libswregistrationalgo.so|555762868791b8c731170578fef02468ac709805
 
 # Charger
@@ -251,8 +251,8 @@ vendor/etc/init/dpmQmiMgr.rc
 
 # DRM
 -vendor/bin/qseecomd
-vendor/etc/init/qseecomd.rc
 vendor/etc/gpfspath_oem_config.xml
+vendor/etc/init/qseecomd.rc
 -vendor/lib64/libGPreqcancel.so
 -vendor/lib64/libGPreqcancel_svc.so
 -vendor/lib64/libQSEEComAPI.so
@@ -272,8 +272,8 @@ vendor/etc/gpfspath_oem_config.xml
 -vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
--vendor/lib64/mediadrm/libwvdrmengine.so
 -vendor/lib64/libwvhidl.so
+-vendor/lib64/mediadrm/libwvdrmengine.so
 
 # DSP
 -vendor/bin/dspservice
@@ -534,8 +534,8 @@ system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
--vendor/bin/hw/qcrild
 -vendor/bin/adpl
+-vendor/bin/hw/qcrild
 -vendor/bin/netmgrd
 -vendor/bin/qti
 -vendor/bin/rmt_storage
@@ -588,6 +588,7 @@ vendor/etc/init/vendor.qti.tftp.rc
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 -vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+vendor/radio/qcril_database/qcril.db
 vendor/radio/qcril_database/upgrade/0_initial.sql
 vendor/radio/qcril_database/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
@@ -596,7 +597,6 @@ vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
-vendor/radio/qcril_database/qcril.db
 
 # Sensors
 -vendor/bin/sensors.qti
