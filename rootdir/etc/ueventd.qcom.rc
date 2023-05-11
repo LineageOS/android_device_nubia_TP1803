@@ -189,3 +189,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/proximity/proximity    proximity_fb             0660    system    system
 /sys/class/proximity/proximity    prox_thres_check         0660    system    system
 /sys/class/proximity/proximity    prox_thres_to_persist    0660    system    system
+
+# socinfo
+/sys/devices/soc0                 serial_number            0000    root      root
