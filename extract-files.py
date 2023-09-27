@@ -65,7 +65,7 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/lib64/hw/camera.qcom.so': blob_fixup()
-        .add_needed('libcomparetf2.so')
+        .add_needed('libcomparetf2_shim.so')
         .replace_needed('libc++.so', 'libc++-v28.so')
         .replace_needed('libsnsapi.so', 'libsnsapi-v28.so'),
     (
