@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bd73be0_0e8cef30",
+        "filename": "vndk/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-10T08:57:18Z",
+      "side": 0,
+      "message": "If you turn this into a makefile you can avoid importing the libs.",
+      "revId": "680099593d1ee630c23373d9dca63dc34a09c5d0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
