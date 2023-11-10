@@ -5,6 +5,11 @@ cc_prebuilt_library_shared {
         strip: {
                 none: true,
         },
-        srcs: ["libc++.so"],
+        target: {
+                android_arm64: {
+                        srcs: ["v28/arm64/libc++.so"],
+                },
+        },
+        compile_multilib: "both",
         check_elf_files: false,
 }
