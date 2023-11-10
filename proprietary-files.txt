@@ -1,4 +1,4 @@
-# These proprietary files are extracted from Nubia Z20 (NX627J) Android R V320 RKQ1.200826.002, unless pinned
+# These proprietary files are extracted from Nubia Z20 (NX627J) Android R V321 RKQ1.200826.002, unless pinned
 
 # ADSP
 -vendor/bin/adsprpcd
