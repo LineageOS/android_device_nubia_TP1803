@@ -8,3 +8,24 @@ cc_prebuilt_library_shared {
         srcs: ["libc++.so"],
         check_elf_files: false,
 }
+
+// From prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libprotobuf-cpp-full.so
+// From prebuilts/vndk/v29/arm64/arch-arm-armv8-a/shared/vndk-core/libprotobuf-cpp-full.so
+cc_prebuilt_library_shared {
+        name: "libprotobuf-cpp-full-vendorcompat",
+        stem: "libprotobuf-cpp-full",
+        vendor: true,
+        strip: {
+                none: true,
+        },
+        target: {
+                android_arm: {
+                        srcs: ["arm/libprotobuf-cpp-full.so"],
+                },
+                android_arm64: {
+                        srcs: ["arm64/libprotobuf-cpp-full.so"],
+                },
+        },
+        compile_multilib: "both",
+        check_elf_files: false,
+}
