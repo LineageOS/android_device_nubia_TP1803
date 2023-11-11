@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6151b8fd_5c6a4fa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-11-11T10:40:02Z",
+      "side": 1,
+      "message": "fastbootd says secure boot on when ro.secure\u003d1 (which is set on userdebug builds)",
+      "revId": "41cd9d5624e83f03989813ea2fe4483a377fc582",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
