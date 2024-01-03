@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab6ae318_eb80b75c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-01-03T05:45:02Z",
+      "side": 1,
+      "message": "Yes these aren\u0027t .img\u0027s - works fine and is the way our release tools (non AB) is set up.",
+      "revId": "0c3b2c54871347d116e1ad6093647f3fe6f8d409",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
