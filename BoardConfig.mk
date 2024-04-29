@@ -80,8 +80,11 @@ BOARD_KERNEL_CMDLINE := \
 TARGET_USES_ION := true
 
 # Partitions
+<<<<<<< HEAD   (69ad8e TP1803: Unconditionally enable VoLTE)
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_FULL_RECOVERY_IMAGE := true
+=======
+>>>>>>> CHANGE (8f4090 Revert "TP1803: Ship full recovery image")
 BOARD_USES_METADATA_PARTITION := true
 
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
