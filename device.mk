@@ -314,8 +314,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
-    hardware/qcom-caf/common/libqti-perfd-client \
-    vendor/nxp/nfc
+    hardware/qcom-caf/common/libqti-perfd-client
 
 # Telephony
 PRODUCT_PACKAGES += \
