@@ -165,6 +165,9 @@ TARGET_TRUST_USB_CONTROL_PATH := /sys/devices/platform/soc/a600000.ssusb/usb_dat
 TARGET_TRUST_USB_CONTROL_ENABLE := 0
 TARGET_TRUST_USB_CONTROL_DISABLE := 1
 
+# Updater
+AB_OTA_UPDATER := false
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
