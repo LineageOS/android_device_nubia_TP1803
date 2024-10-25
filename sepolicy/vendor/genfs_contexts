@@ -3,9 +3,6 @@ genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_encoder_mask    
 genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_state                u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_timeout_ms           u:object_r:vendor_sysfs_graphics:s0
 
-# USB
-genfscon sysfs /devices/platform/soc/a600000.ssusb/usb_data_enabled                  u:object_r:sysfs_usb_data_enabled:s0
-
 # Wakeup stats (new)
 # https://lkml.org/lkml/2019/8/6/1275
 genfscon sysfs /devices/0305_01.01.00/wakeup                                                                                                                                    u:object_r:sysfs_wakeup:s0
