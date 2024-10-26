@@ -2,23 +2,23 @@
 # where necessary repacked with TP1803 stock files, except for ABL which
 # is built from source..
 
-BTFM.bin
-NON-HLOS.bin
-abl.elf
-aop.mbn
-cmnlib.mbn
-cmnlib64.mbn
-devcfg.mbn
-dspso.bin
-hyp.mbn
-imagefv.elf
-km4.mbn
-multi_image.mbn
+BTFM.bin:bluetooth.img
+NON-HLOS.bin:modem.img
+abl.elf:abl.img
+aop.mbn:aop.img
+cmnlib.mbn:cmnlib.img
+cmnlib64.mbn:cmnlib64.img
+devcfg.mbn:devcfg.img
+dspso.bin:dsp.img
+hyp.mbn:hyp.img
+imagefv.elf:imagefv.img
+km4.mbn:keymaster.img
+multi_image.mbn:multiimgoem.img
 parameter.img
-qupv3fw.elf
-splash.bin
-storsec.mbn
-tz.mbn
-uefi_sec.mbn
-xbl.bin
-xbl_config.bin
+qupv3fw.elf:qupfw.img
+splash.bin:splash.img
+storsec.mbn:storsec.img
+tz.mbn:tz.img
+uefi_sec.mbn:uefisecapp.img
+xbl.bin:xbl.img
+xbl_config.bin:xbl_config.img
