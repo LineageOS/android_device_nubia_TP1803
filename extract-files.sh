@@ -71,7 +71,7 @@ function blob_fixup() {
         vendor/lib64/hw/camera.qcom.so)
             [ "$2" = "" ] && return 0
             sed -i "s|libc++.so|libc28.so|g" "${2}"
-            sed -i "s|libqdMetaData.so|libcomparetf2.so|" "${2}"
+            grep -q "libcomparetf2.so" "${2}" || sed -i "s|libqdMetaData.so|libcomparetf2.so|" "${2}"
             sed -i 's|libsnsapi.so|libsnsv28.so|g' "${2}"
             ;;
         vendor/lib64/libsnsv28.so)
