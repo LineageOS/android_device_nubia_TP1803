@@ -95,7 +95,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 # Camera - from TP1803 PKQ1.190504.001
 vendor/etc/camera/camxoverridesettings.txt|867b717c63b0e588b54ead90381d9660c4ff22cc
 vendor/firmware/CAMERA_ICP.elf|0d67a7e94d70054077386bf9714af2e969706905
-vendor/lib64/camera/com.qti.sensor.nx629j_imx586.so:vendor/lib64/camera/com.qti.sensor.tp1803_imx586.so|5fc3bcb0f9bea97eea5ca9be02d0dd542fb506dc
+vendor/lib64/camera/com.qti.sensor.nx629j_imx586.so:vendor/lib64/camera/com.qti.sensor.tp1803_imx586.so;FIX_SONAME|5fc3bcb0f9bea97eea5ca9be02d0dd542fb506dc|36b24dda3e94926cb7d34d2b926dc2c616e2ca6c
 vendor/lib64/camera/com.qti.sensor.tp1803_ov8856.so|acdb965a3d607f98190351125bccbf5318a101cc
 vendor/lib64/camera/com.qti.sensormodule.tp1803_imx586.bin|92b76a47f2d9056ba4e9f91524bb15b000a2c553
 vendor/lib64/camera/com.qti.sensormodule.tp1803_ov8856.bin|2d3b226fcfa113035434eaae6d9a3aa33c0b7d59
