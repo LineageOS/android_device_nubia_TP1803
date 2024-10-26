@@ -52,8 +52,21 @@ function lib_to_package_fixup_vendor_variants() {
     esac
 }
 
+function lib_to_package_fixup_proto() {
+    case "$1" in
+        libprotobuf-cpp-lite | \
+            libprotobuf-cpp-full)
+            echo "$1-vendorcompat"
+            ;;
+        *)
+            return 1
+            ;;
+    esac
+}
+
 function lib_to_package_fixup() {
     lib_to_package_fixup_clang_rt_ubsan_standalone "$1" ||
+        lib_to_package_fixup_proto "$1" ||
         lib_to_package_fixup_proto_3_9_1 "$1" ||
         lib_to_package_fixup_vendor_variants "$@"
 }
