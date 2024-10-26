@@ -95,13 +95,13 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 # Camera - from TP1803 PKQ1.190504.001
 vendor/etc/camera/camxoverridesettings.txt|867b717c63b0e588b54ead90381d9660c4ff22cc
 vendor/firmware/CAMERA_ICP.elf|0d67a7e94d70054077386bf9714af2e969706905
-vendor/lib64/camera/com.qti.sensor.nx629j_imx586.so:vendor/lib64/camera/com.qti.sensor.tp1803_imx586.so;FIX_SONAME|5fc3bcb0f9bea97eea5ca9be02d0dd542fb506dc|36b24dda3e94926cb7d34d2b926dc2c616e2ca6c
+vendor/lib64/camera/com.qti.sensor.nx629j_imx586.so:vendor/lib64/camera/com.qti.sensor.tp1803_imx586.so;FIX_SONAME|5fc3bcb0f9bea97eea5ca9be02d0dd542fb506dc|c34924a9bd96ec4f1a6dd1c130f6ac0cdd573148
 vendor/lib64/camera/com.qti.sensor.tp1803_ov8856.so|acdb965a3d607f98190351125bccbf5318a101cc
 vendor/lib64/camera/com.qti.sensormodule.tp1803_imx586.bin|92b76a47f2d9056ba4e9f91524bb15b000a2c553
 vendor/lib64/camera/com.qti.sensormodule.tp1803_ov8856.bin|2d3b226fcfa113035434eaae6d9a3aa33c0b7d59
 vendor/lib64/camera/com.qti.tuned.default.bin|8e55da21e459fdfc9bb6e5b6725ab83c230fed2a
 vendor/lib64/camera/com.qti.tuned.tp1803_imx586.bin|25c8e45e4a1e67c5d869bfd9b5e03bdeffdce4ff
-vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|d8de6abf30be0ea7c551fe2c4109c1ee0adfe929|826497824079861ddd9380ce4b17d15737c66807
+vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|d8de6abf30be0ea7c551fe2c4109c1ee0adfe929|23514be0b6317cd9c093c1f7c5a55cad107ad7e6
 vendor/lib64/camera/components/com.qti.eisv2.so|895242b879facb428cd7f59cbe3de2b62fdcdeff
 vendor/lib64/camera/components/com.qti.eisv3.so|0893b3309d7e6fcb0315aca82f9913afd92bfc2e
 vendor/lib64/camera/components/com.qti.hvx.addconstant.so|2edc5737bde1e575d17adec6d34959ec195721a6
@@ -109,8 +109,8 @@ vendor/lib64/camera/components/com.qti.hvx.binning.so|e5a2236dbacf8f953e053538ac
 vendor/lib64/camera/components/com.qti.node.depth.so|59ca47bf9e6668e3ee0300a2af9265df909370f8
 vendor/lib64/camera/components/com.qti.node.dummyrtb.so|49d165e0f458f6fccdab5f841a58640a8b1a9461
 vendor/lib64/camera/components/com.qti.node.dummysat.so|36251926aa1da524b90c5fced51a1036c08ca9a0
-vendor/lib64/camera/components/com.qti.node.eisv2.so|8ad3b7591403d7a0432fce959d629c0e658e24dc|c447c518428a3e6671e5b914ed23c786886c24c8
-vendor/lib64/camera/components/com.qti.node.eisv3.so|15ebcaeec95d6e889d8114eefd39875344e5e2f0|a6eb3a46ba6c94e0057979150c0e597edd00fdaf
+vendor/lib64/camera/components/com.qti.node.eisv2.so|8ad3b7591403d7a0432fce959d629c0e658e24dc|6ff9a56dc9484faed2f2786e249f7957193b5c8d
+vendor/lib64/camera/components/com.qti.node.eisv3.so|15ebcaeec95d6e889d8114eefd39875344e5e2f0|6b5d95244b233666e0a577da70b8d6c6b2a7f5e9
 vendor/lib64/camera/components/com.qti.node.fcv.so|8d6ffd0a1ac04660a717f09132775842738d8fd2
 vendor/lib64/camera/components/com.qti.node.gpu.so|05025d285e4d6a333f338004deaa163f1c39d3b0
 vendor/lib64/camera/components/com.qti.node.memcpy.so|8483acd80fbc5b39aab09280a3d59f844fdbbb82
@@ -140,9 +140,9 @@ vendor/lib64/camera/fdconfigpreview.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 vendor/lib64/camera/fdconfigpreviewlite.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 vendor/lib64/camera/fdconfigvideo.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 vendor/lib64/camera/fdconfigvideolite.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
-vendor/lib64/hw/camera.qcom.so|88d557c1ae66ecbc224c5bd2a9aee0544a177010|8a099105c042f9261bd0f525f89a9b6dbdd24252
+vendor/lib64/hw/camera.qcom.so|88d557c1ae66ecbc224c5bd2a9aee0544a177010|ddd8d5a3bf654eaa3fd5f2fead1b60897d4b7af1
 vendor/lib64/hw/com.qti.chi.override.so|2918319b14552887dddee75765694ea804aad230
-vendor/lib64/libcamera_nn_stub.so|ba354b7e968ce2af3ac5597292d1b315d89b4113|535f874f9ce53fe7af5d6dd934275f75e4b505be
+vendor/lib64/libcamera_nn_stub.so|ba354b7e968ce2af3ac5597292d1b315d89b4113|8e526f5ae1bde693501fe7b0590a3d6b89e0f5b2
 vendor/lib64/libcamxfdalgov7.so|aa3cf08b7c8fa862417d332c2b8012218188b962
 vendor/lib64/libcamxfdalgov8.so|c5b7401df0879170b30f81df70f51c943f983213
 vendor/lib64/libcamxfdengine.so|236fa78ad2e5ebde864ba508d3950dd1e99b824c
@@ -150,7 +150,7 @@ vendor/lib64/libcamxstatscore.so|8be078e11b86df6f204ab899867b042e7529c39c
 vendor/lib64/libcamxswprocessalgo.so|6457563020d15ab00a563c1fb2453482bc396b3a
 vendor/lib64/libcamxtintlessalgo.so|cbaad8d52f77f0af0e8122296336fcbef3014856
 vendor/lib64/libcom.qti.chinodeutils.so|1d694e69edee256715d96b4d0aa3d883ee4cf7b4
-vendor/lib64/libsnsapi.so:vendor/lib64/libsnsv28.so|89da0e4714611fad86c51c6053c2e73d9ce4f3e1|4387ce4e39c4854189a5d4185251c66e9295e5ab
+vendor/lib64/libsnsapi.so:vendor/lib64/libsnsapi-v28.so;FIX_SONAME|89da0e4714611fad86c51c6053c2e73d9ce4f3e1|72df7f3bf6cd21408b23c6501a394c07174edc77
 vendor/lib64/libswregistrationalgo.so|555762868791b8c731170578fef02468ac709805
 
 # Charger
@@ -288,7 +288,7 @@ vendor/lib/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # Fingerprint - from TP1803 PKQ1.190504.001
-vendor/lib64/hw/fingerprint.sunwave.so:vendor/lib64/hw/fingerprint.msmnile.so;FIX_SONAME|dd121120c89cc084c4d31c5ee3ad4d8b69714e85|cf960dce13b45d38678c75bf5015eab7c6ed4b15
+vendor/lib64/hw/fingerprint.sunwave.so:vendor/lib64/hw/fingerprint.msmnile.so;FIX_SONAME|dd121120c89cc084c4d31c5ee3ad4d8b69714e85|69362fced483a55a27d0bad4f5ae2eeb958a70e8
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
