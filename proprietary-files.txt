@@ -238,7 +238,7 @@ system_ext/etc/permissions/com.qti.dpmframework.xml
 system_ext/etc/permissions/dpmapi.xml
 system_ext/framework/com.qti.dpmframework.jar
 system_ext/framework/dpmapi.jar
--system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_system_ext
+-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
 -system_ext/lib64/libdpmctmgr.so
 -system_ext/lib64/libdpmfdmgr.so
 -system_ext/lib64/libdpmframework.so
@@ -373,7 +373,7 @@ vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
 -system_ext/lib64/libimscamera_jni.so
 -system_ext/lib64/libimsmedia_jni.so
 -system_ext/lib64/vendor.qti.diaghal@1.0.so
--system_ext/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_system_ext
+-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 -system_ext/priv-app/ims/ims.apk
 -vendor/bin/ims_rtp_daemon
 -vendor/bin/imsdatadaemon
