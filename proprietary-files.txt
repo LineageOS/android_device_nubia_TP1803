@@ -101,7 +101,7 @@ vendor/lib64/camera/com.qti.sensormodule.tp1803_imx586.bin|92b76a47f2d9056ba4e9f
 vendor/lib64/camera/com.qti.sensormodule.tp1803_ov8856.bin|2d3b226fcfa113035434eaae6d9a3aa33c0b7d59
 vendor/lib64/camera/com.qti.tuned.default.bin|8e55da21e459fdfc9bb6e5b6725ab83c230fed2a
 vendor/lib64/camera/com.qti.tuned.tp1803_imx586.bin|25c8e45e4a1e67c5d869bfd9b5e03bdeffdce4ff
-vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|d8de6abf30be0ea7c551fe2c4109c1ee0adfe929
+vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|d8de6abf30be0ea7c551fe2c4109c1ee0adfe929|826497824079861ddd9380ce4b17d15737c66807
 vendor/lib64/camera/components/com.qti.eisv2.so|895242b879facb428cd7f59cbe3de2b62fdcdeff
 vendor/lib64/camera/components/com.qti.eisv3.so|0893b3309d7e6fcb0315aca82f9913afd92bfc2e
 vendor/lib64/camera/components/com.qti.hvx.addconstant.so|2edc5737bde1e575d17adec6d34959ec195721a6
@@ -109,8 +109,8 @@ vendor/lib64/camera/components/com.qti.hvx.binning.so|e5a2236dbacf8f953e053538ac
 vendor/lib64/camera/components/com.qti.node.depth.so|59ca47bf9e6668e3ee0300a2af9265df909370f8
 vendor/lib64/camera/components/com.qti.node.dummyrtb.so|49d165e0f458f6fccdab5f841a58640a8b1a9461
 vendor/lib64/camera/components/com.qti.node.dummysat.so|36251926aa1da524b90c5fced51a1036c08ca9a0
-vendor/lib64/camera/components/com.qti.node.eisv2.so|8ad3b7591403d7a0432fce959d629c0e658e24dc
-vendor/lib64/camera/components/com.qti.node.eisv3.so|15ebcaeec95d6e889d8114eefd39875344e5e2f0
+vendor/lib64/camera/components/com.qti.node.eisv2.so|8ad3b7591403d7a0432fce959d629c0e658e24dc|c447c518428a3e6671e5b914ed23c786886c24c8
+vendor/lib64/camera/components/com.qti.node.eisv3.so|15ebcaeec95d6e889d8114eefd39875344e5e2f0|a6eb3a46ba6c94e0057979150c0e597edd00fdaf
 vendor/lib64/camera/components/com.qti.node.fcv.so|8d6ffd0a1ac04660a717f09132775842738d8fd2
 vendor/lib64/camera/components/com.qti.node.gpu.so|05025d285e4d6a333f338004deaa163f1c39d3b0
 vendor/lib64/camera/components/com.qti.node.memcpy.so|8483acd80fbc5b39aab09280a3d59f844fdbbb82
@@ -142,7 +142,7 @@ vendor/lib64/camera/fdconfigvideo.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 vendor/lib64/camera/fdconfigvideolite.bin|57a107b602bfbe3a8b571fdcaa6eb8cb217b7144
 vendor/lib64/hw/camera.qcom.so|88d557c1ae66ecbc224c5bd2a9aee0544a177010|8a099105c042f9261bd0f525f89a9b6dbdd24252
 vendor/lib64/hw/com.qti.chi.override.so|2918319b14552887dddee75765694ea804aad230
-vendor/lib64/libcamera_nn_stub.so|ba354b7e968ce2af3ac5597292d1b315d89b4113
+-vendor/lib64/libcamera_nn_stub.so|ba354b7e968ce2af3ac5597292d1b315d89b4113|535f874f9ce53fe7af5d6dd934275f75e4b505be
 vendor/lib64/libcamxfdalgov7.so|aa3cf08b7c8fa862417d332c2b8012218188b962
 vendor/lib64/libcamxfdalgov8.so|c5b7401df0879170b30f81df70f51c943f983213
 vendor/lib64/libcamxfdengine.so|236fa78ad2e5ebde864ba508d3950dd1e99b824c

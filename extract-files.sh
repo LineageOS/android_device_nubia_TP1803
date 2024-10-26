@@ -74,6 +74,10 @@ function blob_fixup() {
             grep -q "libcomparetf2.so" "${2}" || sed -i "s|libqdMetaData.so|libcomparetf2.so|" "${2}"
             sed -i 's|libsnsapi.so|libsnsv28.so|g' "${2}"
             ;;
+        vendor/lib64/camera/components/com.qti.camx.chiiqutils.so | vendor/lib64/camera/components/com.qti.node.eisv2.so | vendor/lib64/camera/components/com.qti.node.eisv3.so | vendor/lib64/libcamera_nn_stub.so |vendor/lib64/camera/components/com.qti.node.eisv2.so)
+            [ "$2" = "" ] && return 0
+            sed -i 's|libsnsapi.so|libsnsv28.so|g' "${2}"
+            ;;
         vendor/lib64/libsnsv28.so)
             [ "$2" = "" ] && return 0
             sed -i 's|libsnsapi.so|libsnsv28.so|g' "${2}"
