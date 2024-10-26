@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "816fe0e6_93ee83c1",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-10-26T16:15:39Z",
+      "side": 1,
+      "message": "this really doesn\u0027t like to be patchelf\u0027d, with all patchelf version we have currently",
+      "revId": "93453b120e5eebcb74c1238e4adc36b66666a81e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
