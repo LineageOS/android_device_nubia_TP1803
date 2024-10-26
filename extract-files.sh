@@ -62,7 +62,7 @@ function blob_fixup() {
     case "${1}" in
         system_ext/lib64/lib-imsvideocodec.so)
             [ "$2" = "" ] && return 0
-            "${PATCHELF}" --add-needed "libgui_shim.so" "${2}"
+            grep -q "libgui_shim.so" "${2}" || "${PATCHELF}" --add-needed "libgui_shim.so" "${2}"
             ;;
         vendor/bin/dspservice | vendor/bin/vppservice | vendor/lib64/lib-imsrcs-v2.so | vendor/lib/libOmxVpp.so | vendor/lib/libvppclient.so)
             [ "$2" = "" ] && return 0
