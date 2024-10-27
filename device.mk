@@ -111,7 +111,13 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_PACKAGES += \
+<<<<<<< PATCH SET (d1f888 TP1803: Ensure we build the vendor version of libcrypto_shim)
+    android.hardware.drm@1.3.vendor \
+    android.hardware.drm-service.clearkey \
+    libcrypto_shim.vendor
+=======
     android.hardware.drm-service.clearkey
+>>>>>>> BASE      (4fd6a5 TP1803: Use standard firmware names)
 
 # Fastbootd
 PRODUCT_PACKAGES += \
