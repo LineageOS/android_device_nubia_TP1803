@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa525d45_d1e7f532",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-27T19:41:35Z",
+      "side": 1,
+      "message": "so, I like this - but let me get all my other devices moved over.\n\nI have some mass management scripts for devices, and I just don\u0027t want to move 1 of my devices to it and not others lol",
+      "revId": "4341f48b567be9cfd312c05c875f59358ae2ebfc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
