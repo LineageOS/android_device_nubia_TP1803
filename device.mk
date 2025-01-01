@@ -103,8 +103,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
 
 PRODUCT_PACKAGES += \
-    gralloc.msmnile \
-    hwcomposer.msmnile \
+    hwcomposer.qcom \
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
