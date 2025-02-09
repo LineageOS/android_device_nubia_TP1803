@@ -343,7 +343,6 @@ vendor/bin/tloc_daemon
 vendor/bin/xtra-daemon
 vendor/etc/init/tloc_daemon.rc
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
-vendor/lib/libmmosal.so
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib64/libcdfw.so
 vendor/lib64/libcdfw_remote_api.so
