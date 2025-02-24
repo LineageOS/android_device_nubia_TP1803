@@ -6451,7 +6451,7 @@ void GnssAdapter::handleEnablePPENtrip(const GnssNtripConnectionParams& params) 
             0 == pNtripParams->mountPoint.compare(params.mountPoint) &&
             0 == pNtripParams->username.compare(params.username) &&
             0 == pNtripParams->password.compare(params.password) &&
-            params.requiresNmeaLocation == params.requiresNmeaLocation) {
+            pNtripParams->requiresNmeaLocation == params.requiresNmeaLocation) {
         LOC_LOGd("received same Ntrip param");
         return;
     }
