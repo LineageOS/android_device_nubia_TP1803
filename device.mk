@@ -165,6 +165,8 @@ PRODUCT_COPY_FILES += \
 
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+PRODUCT_ENABLE_UFFD_GC := true
+OVERRIDE_ENABLE_UFFD_GC := true
 
 # Lineage Health
 PRODUCT_PACKAGES += \
@@ -281,9 +283,6 @@ PRODUCT_COPY_FILES += \
 # Touchscreen
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
-
-# UFFD GC
-OVERRIDE_ENABLE_UFFD_GC := false
 
 # USB
 PRODUCT_PACKAGES += \
