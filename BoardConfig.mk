@@ -6,9 +6,6 @@
 
 DEVICE_PATH := device/nubia/TP1803
 
-# BUILD_BROKEN_*
-BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
