@@ -273,11 +273,11 @@ vendor/lib64/libtrustedapploader.so
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
-vendor/lib64/libwvhidl.so
-vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/libwvhidl.so|c50a6fee3753dff0809ef2c861c1f517cfb3b2b7|2f562c121d3ef925cb64c80e15e2c61d0158b717
+vendor/lib64/mediadrm/libwvdrmengine.so|a5cb0febcf81636577ec16cdc64005c647275afe|2688a21325d8c5335339c5ed7d22a08498835d37
 
 # DSP
-vendor/bin/dspservice
+vendor/bin/dspservice|225fc63f14387ea978341f9418b34900c1b10ce2|45e84157ade80e292677a8ae281e87c8d76f5bd4
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib/vendor.qti.hardware.dsp@1.0.so
@@ -368,7 +368,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
 # IMS
-system_ext/lib64/lib-imsvideocodec.so
+system_ext/lib64/lib-imsvideocodec.so|32ee61c0ac47dbad187b82f0f921354a55cc51a1|be6f2a4c5f30ad4e72ebfff4dbb254eab64de10e
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvtutils.so
@@ -396,7 +396,7 @@ vendor/lib64/com.qualcomm.qti.uceservice@2.2.so
 vendor/lib64/lib-imscmservice.so
 vendor/lib64/lib-imsdpl.so
 vendor/lib64/lib-imsqimf.so
-vendor/lib64/lib-imsrcs-v2.so
+vendor/lib64/lib-imsrcs-v2.so|efb10a6271b0c7a12f7fdd53fed5890f11476eb1|5422ba01ef79f632d6d1dda714800be7b4dda04a
 vendor/lib64/lib-imsrcsbaseimpl.so
 vendor/lib64/lib-imsvtcore.so
 vendor/lib64/lib-imsxml.so
@@ -513,8 +513,8 @@ vendor/bin/netmgrd
 vendor/bin/qti
 vendor/bin/rmt_storage
 vendor/bin/tftp_server
-vendor/etc/data/dsi_config.xml;FIX_XML
-vendor/etc/data/netmgr_config.xml;FIX_XML
+vendor/etc/data/dsi_config.xml;FIX_XML|ea7b7d04befce64d273919fdfb2eee1adb0ebe9c|af970c55a0e16a1bb2c98df47ffc358ed774b240
+vendor/etc/data/netmgr_config.xml;FIX_XML|ce172471828f44512b6eec207b3dfe791da8d62a|be6da9590212c09e71ae7cb912746d5e56efe09e
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
 vendor/etc/init/netmgrd.rc
@@ -688,10 +688,10 @@ vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
 # VPP
-vendor/bin/vppservice
+vendor/bin/vppservice|5c47c89cddbbab43dafaed5b71065f086c8f2fd4|d59a2c70f9ea4f7f397de73be469dbf14d4a487b
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc
-vendor/lib/libvppclient.so
+vendor/lib/libvppclient.so|6954b76f485da79fce2de9153a617f44cf84dd97|b5fb9aab651609086e108ed0303096b97964ef46
 vendor/lib/libvpphcp.so
 vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
