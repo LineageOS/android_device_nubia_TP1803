@@ -152,7 +152,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # Screen density
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 420
 
 # Trust
 TARGET_TRUST_USB_CONTROL_PATH := /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled
