@@ -8,12 +8,8 @@ genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_timeout_ms      
 genfscon sysfs /devices/0305_01.01.00/wakeup                                                                                                                                    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/171c0000.slim/tavil-slim-pgd/wakeup                                                                                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1c08000.qcom,pcie/pci0001:00/0001:00:00.0/0001:01:00.0/0305_01.01.00_EFS/wakeup                                                            u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm8150@0:qcom,power-on@800/wakeup                                                 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,power-on@800/wakeup                                                u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/wakeup                                                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,sdam-qnovo@b000/wakeup                                             u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,usb-pdphy@1700/usbpd/usbpd0/otg_default/wakeup                     u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-04/c440000.qcom,spmi:qcom,pm8150l@4:qcom,power-on@800/wakeup                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/vendor/vendor:extcon_usb1/wakeup                                                                                                               u:object_r:sysfs_wakeup:s0
 
 genfscon sysfs /devices/platform/vendor/vendor:extcon_usb1/extcon/extcon3/cable.0/name u:object_r:sysfs_extcon:s0
