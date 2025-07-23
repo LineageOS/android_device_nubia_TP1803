@@ -51,7 +51,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 
-TARGET_KERNEL_CONFIG := TP1803_defconfig
+TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig vendor/debugfs.config vendor/ext_config/TP1803.config
 TARGET_KERNEL_SOURCE := kernel/nubia/sm8150
 
 BOARD_KERNEL_CMDLINE := \
