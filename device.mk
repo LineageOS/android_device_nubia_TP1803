@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.primary.msmnile \
     audio.usb.default \
-    audio.r_submix.default
+    audio.r_submix.default \
+    sound_trigger.primary.msmnile
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
