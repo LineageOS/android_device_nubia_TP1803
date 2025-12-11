@@ -59,6 +59,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib/libvppclient.so',
     ): blob_fixup()
         .remove_needed('libhwbinder.so'),
+    'vendor/bin/thermal-engine': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2_1.so'),
     'vendor/lib64/hw/camera.qcom.so': blob_fixup()
         .add_needed('libcomparetf2.so')
         .replace_needed('libc++.so', 'libc++-v28.so')
