@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75535aa7_263fe034",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-17T21:14:37Z",
+      "side": 1,
+      "message": "I don\u0027t know if using different config is correct.",
+      "revId": "366d6c64aad391e9dca1f266b8603622e4dbbbb3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
