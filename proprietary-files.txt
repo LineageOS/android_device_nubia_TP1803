@@ -645,10 +645,13 @@ vendor/etc/sensors/config/sns_wrist_pedo.json|078bbc91b4bde41ad214ee81276485e657
 vendor/etc/sensors/hals.conf|a96389b6739f730ab852414c009570e54c9ae52c
 vendor/etc/sensors/sns_reg_config|891e6e552b64c29b61744dd53ea373ea0ce0aa40
 
-# Thermal
-vendor/bin/thermal-engine
-vendor/etc/init/init_thermal-engine.rc
-vendor/etc/thermal-engine.conf
+# Thermal - from guacamole - oplus/ossi/ossi:12/SKQ1.211113.001/1679576657254:user/release-keys
+vendor/bin/thermal-engine|bacf88c801ba037e1e1d2671937404184eb8964b|bacf88c801ba037e1e1d2671937404184eb8964b
+vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/lib64/libthermalclient.so|8f2411404f56c6d15e6a185124bbc7f8c2adf195
+
+# Thermal Configurations
 vendor/etc/thermal-mode-00-01.conf
 vendor/etc/thermal-mode-00-02.conf
 vendor/etc/thermal-mode-00-03.conf
@@ -679,7 +682,6 @@ vendor/etc/thermal-mode-04-03.conf
 vendor/etc/thermal-mode-04-04.conf
 vendor/etc/thermal-mode-04-05.conf
 vendor/etc/thermal-mode-04-06.conf
-vendor/lib64/libthermalclient.so
 
 # Time
 vendor/app/TimeService/TimeService.apk
