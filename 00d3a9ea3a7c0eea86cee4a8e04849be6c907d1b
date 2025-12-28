@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "282b8e0c_f4d2c253",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35551
+      },
+      "writtenOn": "2025-12-28T03:07:00Z",
+      "side": 1,
+      "message": "this mean libtinyxml_2.1 not used anymore?",
+      "revId": "00d3a9ea3a7c0eea86cee4a8e04849be6c907d1b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
