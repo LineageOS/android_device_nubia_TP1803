@@ -1,2 +1,2 @@
-# BPF
-ro.bpf.kver_override=5.4.299
+# eBPF
+ro.bpf.kver_override=5.10.239
