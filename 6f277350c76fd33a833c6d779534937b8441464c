@@ -26,6 +26,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "21f642ed_d1238ec2",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-05-12T16:13:03Z",
+      "side": 1,
+      "message": "```suggestion\nAVB_CUSTOM_ALGORITHM :\u003d SHA256_RSA4096\nAVB_CUSTOM_KEY_PATH :\u003d external/avb/test/data/testkey_rsa4096.pem\n```",
+      "range": {
+        "startLine": 156,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 65
+      },
+      "revId": "6f277350c76fd33a833c6d779534937b8441464c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "446ff87c_e9c21d47",
         "filename": "BoardConfig.mk",
         "patchSetId": 1
