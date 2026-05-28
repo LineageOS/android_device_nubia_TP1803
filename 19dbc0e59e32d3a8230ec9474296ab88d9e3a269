@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b3c2d71_8cd1ebad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-05-28T14:59:23Z",
+      "side": 1,
+      "message": "minimal rice, it helps with blur.",
+      "revId": "19dbc0e59e32d3a8230ec9474296ab88d9e3a269",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
