@@ -16,6 +16,24 @@
       "message": "Changing \u0027on charger\u0027 is unnecessary as seen in multiple other versions of this commit",
       "revId": "cd0f287fb65ac6492727ddc5193d5a1c7b448e56",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9df20ecf_f0a82a42",
+        "filename": "rootdir/etc/init/hw/init.qcom.usb.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-07-04T05:32:45Z",
+      "side": 1,
+      "message": "I trusted bruno, he\u0027s usually a good source of truth: https://review.lineageos.org/c/LineageOS/android_device_fxtec_pro1/+/387922\n\nBut - Ack.",
+      "parentUuid": "cb35ef6c_6fe7db34",
+      "revId": "cd0f287fb65ac6492727ddc5193d5a1c7b448e56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
