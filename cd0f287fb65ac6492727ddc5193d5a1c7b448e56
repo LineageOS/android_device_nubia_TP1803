@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb35ef6c_6fe7db34",
+        "filename": "rootdir/etc/init/hw/init.qcom.usb.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-07-04T05:31:29Z",
+      "side": 1,
+      "message": "Changing \u0027on charger\u0027 is unnecessary as seen in multiple other versions of this commit",
+      "revId": "cd0f287fb65ac6492727ddc5193d5a1c7b448e56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
