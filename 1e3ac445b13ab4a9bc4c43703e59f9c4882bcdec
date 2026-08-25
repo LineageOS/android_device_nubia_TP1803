@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "876f1c4b_d7bea4cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-08-25T08:40:28Z",
+      "side": 1,
+      "message": "fixes random disconnections in background (can probably be cleaned up)",
+      "revId": "1e3ac445b13ab4a9bc4c43703e59f9c4882bcdec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
