@@ -16,6 +16,24 @@
       "message": "fixes random disconnections in background (can probably be cleaned up)",
       "revId": "1e3ac445b13ab4a9bc4c43703e59f9c4882bcdec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67a9e50c_a79d7ce0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-08-25T16:50:03Z",
+      "side": 1,
+      "message": "eh, follow up if anything to make extraction source clear.",
+      "parentUuid": "876f1c4b_d7bea4cd",
+      "revId": "1e3ac445b13ab4a9bc4c43703e59f9c4882bcdec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
