@@ -51,7 +51,6 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig vendor/debugfs.config vendor/ext_config/TP1803.config
-TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_SOURCE := kernel/nubia/sm8150
 
 BOARD_KERNEL_CMDLINE := \
