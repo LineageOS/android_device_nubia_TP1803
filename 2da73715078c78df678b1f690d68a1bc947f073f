@@ -16,6 +16,24 @@
       "message": "broken for me, bootloader loop to EDL.",
       "revId": "2da73715078c78df678b1f690d68a1bc947f073f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fb7c36f_989f4dea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-08-30T17:41:02Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "e49de89f_cd5acd1d",
+      "revId": "2da73715078c78df678b1f690d68a1bc947f073f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
